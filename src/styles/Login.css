@@ -1,0 +1,73 @@
+  *{
+    text-align: center;
+    font-family: IRANSans;
+  }
+
+  .red-logo{
+    margin-top: 20rem;
+    margin-bottom: 1rem;
+}
+
+  .phone-input{
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 22rem;
+    height: 56px;
+    flex-shrink: 0;
+    text-align: right; 
+    padding: 1rem;
+  }
+  
+  .phone-input::placeholder {
+    text-align: right; 
+    direction: rtl; 
+  }
+
+  .code-input{
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 22rem;
+    height: 56px;
+    flex-shrink: 0;
+    text-align: right; 
+    padding: 1rem;
+  }
+
+  .code-input::placeholder{
+    text-align: center; 
+    direction: rtl; 
+  }
+
+  .red-button{
+    display: flex;
+    width: 24rem;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--Color-primary, #D10B11);
+    box-shadow: 0px 8px 16px 0px rgba(218, 0, 1, 0.35);
+  }
+
+  #background-image{
+    background-image: url('../images/login-gradient-2.png');
+    height: 62rem;
+  }
+
+  .white-logo{
+  width: 21rem;
+  margin-top: 29rem;
+}
+
+  .margin-left{
+  margin-left: 16rem;
+}
+
+.edit-number{
+  position: relative;
+  right: -8rem;
+  color: #D10B11;
+  text-decoration: none;
+  direction: rtl;
+  text-align: right;
+}

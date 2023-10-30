@@ -1,0 +1,125 @@
+.container-radious{
+    border-radius: 0.625rem;
+}
+
+.height-80{
+    height: 80vh;
+}
+
+.bg-gradient{
+    background-image: url('../images/wallet-gradient-2.png');
+}
+
+.btn-white{
+    background-color: white;
+    color: red;
+    padding: 0.6875rem 1.375rem;
+    width: 12.9375rem;
+    justify-content: center;
+    border-radius: 3.125rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+    transform: translate(0 ,-1.5rem);
+    margin-left: 1rem;
+    z-index: 2;
+}
+
+.btn-white:hover{
+    background-color: #eeeeee;
+    color: black;
+}
+
+ .btn-red{
+    background: #D10B11;
+    color: white;
+    padding: 0.6875rem 1.375rem;
+    border-radius: 3.125rem;
+    width: 12.9375rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+    transform: translate(0 ,-1.5rem);
+    margin-left: 1rem;
+ }
+
+ .btn-red:hover{
+    background: var(--Color-primary, #c0090f);
+    color: var(--08-common-01-white, var(--Color-white, #FFF));
+ }
+
+ .item{
+    box-shadow: 0px 12px 24px -4px rgba(145, 158, 171, 0.12);
+    background: var(--Color-white, #FFF);
+    border-radius: 0.3125rem;
+    border: none;
+    width: 10.75rem;
+    height: 6.5rem;
+    margin: .5rem;
+    padding: 1.5rem;
+    transition: all .3s;
+ }
+
+ .item:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 24px -4px rgba(145, 158, 171, 0.12);
+    color: var(--Color-primary, #c0090f);
+ }
+
+ .main-title{
+    color: var(--Color-black, #000);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: end;
+ }
+
+ .date{
+    color: #919EAB;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: IRANSans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 166.667% */
+ }
+
+ .caption{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: right;
+    font-family: IRANSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+ }
+
+ .transaction-item{
+    width: 45.375rem;
+    height: 4.5rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: var(--Color-white, #FFF);
+
+    /* 01 Shadows/Light/z12 */
+    box-shadow: 0px 12px 24px -4px rgba(145, 158, 171, 0.12);
+ }
+ 
+ .transaction-title{
+    color: var(--Color-black, #000);
+    text-align: right;
+    font-family: IRANSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+
+.status-success{
+    color: var(--04-success-04-dark, #229A16);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: IRANSans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 166.667% */
+}

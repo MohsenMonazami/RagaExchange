@@ -1,0 +1,7 @@
+.bold{
+    font-weight: bold;
+}
+
+.border-left{
+    border-left: 0.0625rem rgba(145, 158, 171, 0.24) dashed;
+}
