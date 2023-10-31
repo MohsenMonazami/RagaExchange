@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const SideMenu = () => {
   return (
-    // <div className="container-fluid  d-flex justify-content-end">
+    // <div classNameName="container-fluid  d-flex justify-content-end">
 
       <div className="col-md-2 p-2 vh-100 d-flex flex-column border-left">
         <div className="row justify-content-center">
@@ -16,57 +16,57 @@ const SideMenu = () => {
           <img src={Avatar} className="col-md-6 mt-5"/>
         </div>
         <div className="col-md-12">
-        <nav class="navbar navbar-expand-lg navbar-light mt-2">
-          <div class="container">
-            <ul class="navbar-nav flex-column vw-100">
+        <nav className="navbar navbar-expand-lg navbar-light mt-2">
+          <div className="container">
+            <ul className="navbar-nav flex-column vw-100">
   
-              <li class="nav-item mb-2 ">
-                <Link class="nav-link text-end" href="#">
-                خانه <i class="bi bi-house-door mx-2"></i> 
+              <li className="nav-item mb-2 ">
+                <Link className="nav-link text-end hover" href="#">
+                خانه <i className="bi bi-house-door mx-2"></i> 
                 </Link>
               </li>
           
-              <li class="nav-item mb-2">
-                <Link class="nav-link text-end" href="#">
-                کیف پول  <i class="bi bi-wallet mx-2"></i> 
+              <li className="nav-item mb-2">
+                <Link className="nav-link text-end hover" href="#">
+                کیف پول  <i className="bi bi-wallet mx-2"></i> 
                 </Link>
               </li>
 
-              <li class="nav-item mb-2">
-                <Link class="nav-link text-end" href="#">
-                مستر کارت  <i class="bi bi-credit-card mx-2"></i> 
+              <li className="nav-item mb-2">
+                <Link className="nav-link text-end hover" href="#">
+                مستر کارت  <i className="bi bi-credit-card mx-2"></i> 
                 </Link>
               </li>
 
-              <li class="nav-item mb-2">
-                <Link class="nav-link text-end" href="#">
-                انتقال وجه بانکی  <i class="bi bi-arrow-left-right mx-2"></i> 
+              <li className="nav-item mb-2">
+                <Link className="nav-link text-end hover " href="#">
+                انتقال وجه بانکی  <i className="bi bi-arrow-left-right mx-2"></i> 
                 </Link>
               </li>
 
-              <li class="nav-item mb-2">
-                <Link class="nav-link text-end" href="#">
-                برداشت وجه  <i class="bi bi-box-arrow-down mx-2"></i> 
+              <li className="nav-item mb-2">
+                <Link className="nav-link text-end hover" href="#">
+                برداشت وجه  <i className="bi bi-box-arrow-down mx-2"></i> 
                 </Link>
               </li>
 
-              <li class="nav-item mb-2">
-                <Link class="nav-link text-end" href="#">
-                تراکنش ها <i class="bi bi-list-check mx-2"></i> 
+              <li className="nav-item mb-2">
+                <Link className="nav-link text-end hover" href="#">
+                تراکنش ها <i className="bi bi-list-check mx-2"></i> 
                 </Link>
               </li>
 
-              <li class="nav-item mb-2">
-                <Link class="nav-link text-end" href="#">
-                پروفایل  <i class="bi bi-person mx-2"></i> 
+              <li className="nav-item mb-2">
+                <Link className="nav-link text-end hover" href="#">
+                پروفایل  <i className="bi bi-person mx-2"></i> 
                 </Link>
               </li>
 
               <hr className="ms-3"/>
 
-              <li class="nav-item mb-2">
-                <Link class="nav-link bold text-danger text-end" href="#">
-                خروج از حساب  <i class="bi bi-box-arrow-left mx-2"></i> 
+              <li className="nav-item mb-2">
+                <Link className="nav-link bold text-danger text-end hover" href="#">
+                خروج از حساب  <i className="bi bi-box-arrow-left mx-2"></i> 
                 </Link>
               </li>
 
