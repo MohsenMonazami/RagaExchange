@@ -1,0 +1,15 @@
+.btn-red{
+    background: #D10B11;
+    color: white;
+    padding: 0.6875rem 1.375rem;
+    border-radius: 3.125rem;
+    width: 12.9375rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+    transform: translate(0 ,-1.5rem);
+    margin-left: 1rem;
+ }
+
+ .btn-red:hover{
+    background: var(--Color-primary, #c0090f);
+    color: var(--08-common-01-white, var(--Color-white, #FFF));
+ }

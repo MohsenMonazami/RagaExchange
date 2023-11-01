@@ -1,0 +1,66 @@
+.chart{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    text-align: right;
+    font-family: IRANSans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem; /* 155.556% */
+}
+
+.chart-box{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    text-align: right;
+    font-family: IRANSans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem; /* 155.556% */
+    border-radius: 1rem;
+    display: flex;
+    width: 16.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6875rem;
+        
+    background: var(--Color-white, #FFF);
+
+    /* 01 Shadows/Light/zCard */
+    box-shadow: 0px 12px 24px -4px rgba(145, 158, 171, 0.12), 0px 0px 2px 0px rgba(145, 158, 171, 0.20);
+}
+
+.unit-text{
+    color: var(--11-text-color-light-02-text-secondary, var(--Text-highlight, #637381));
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem; /* 157.143% */
+    color: rgba(99, 115, 129, 1);
+}
+
+.price-text{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    text-align: right;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem; /* 157.143% */
+}
+
+.total-price{
+    color:#D10B11;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 150% */
+}
+
+.total-title{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 150% */
+}
