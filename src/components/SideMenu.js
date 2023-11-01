@@ -8,7 +8,7 @@ const SideMenu = () => {
   return (
     // <div classNameName="container-fluid  d-flex justify-content-end">
 
-      <div className="col-md-2 p-2 vh-100 d-flex flex-column border-left">
+      <div className="col-md-2 p-2 vh-100 d-flex flex-column border-left d-lg-block d-sm-none d-xs-none">
         <div className="row justify-content-center">
           <img src={Logo} className="col-md-6 mt-5" />
         </div>
